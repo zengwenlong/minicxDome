@@ -11,6 +11,6 @@
     <text class="user-motto">{{motto}}</text>
   </view>
   <!--这些标签都可以称之为组件-->
-  <text>asdfasdf</text>
-    <text>asdfasdf</text>
+  <text>asdfasdf1</text>
+    <text>asdfasdf1</text>
 </view>
