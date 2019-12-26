@@ -1,0 +1,25 @@
+//为什么已{}开头结尾呢？因为这个json，遵循大规范格式。也是底层所需要的。
+{
+  //页面路径列表
+  //为什么这里使用数组的一个形式呢？
+  "pages": [
+    "pages/index/index",
+    "pages/logs/logs"
+  ],
+  //全局的默认窗口表现
+  //为什么这里使用一个大括号的形式呢？
+  "window": {
+    //下拉 loading 的样式，仅支持 dark / light
+    "backgroundTextStyle": "light",
+    //导航栏背景颜色
+    "navigationBarBackgroundColor": "#fff",
+    //导航栏标题文字内容【全局的，也就是全部页面都会使用这个标题文字】
+    "navigationBarTitleText": "WeChat",
+    //导航栏标题颜色，仅支持 dark / light
+    "navigationBarTextStyle": "black"
+  },
+  //指定使用升级后的weui样式
+  "style": "v2",
+  //指明 sitemap.json 的位置
+  "sitemapLocation": "sitemap.json"
+}
